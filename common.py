@@ -70,8 +70,6 @@ CONFIG = {
             "SalesRevenueNet",
             "NetIncomeLoss",
             "Assets",
-            "LiabilitiesCurrent",
-            "LiabilitiesNoncurrent",
             "StockholdersEquity",
             "OperatingIncomeLoss",
             "CashAndCashEquivalentsAtCarryingValue",
