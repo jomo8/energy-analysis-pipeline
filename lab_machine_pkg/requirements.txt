@@ -27,3 +27,6 @@ jupyter
 nbconvert>=7.0
 nbformat>=5.9
 ipykernel>=6.25
+
+accelerate>=0.26.0
+nvidia-ml-py

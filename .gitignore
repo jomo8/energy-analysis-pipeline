@@ -5,3 +5,7 @@ artifacts/
 results/
 .codecarbon/
 *.log
+
+lab_machine_pkg/.venv/
+lab_machine_pkg/.hf_cache/
+lab_machine_pkg/catboost_info/
