@@ -57,17 +57,17 @@ CONFIG = {
     "random_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     # Target company and analysis window.
     "company": {
-        "ticker": "AMZN",
-        "cik": "0001018724",
-        "start_date": "2010-01-01",
+        "ticker": "KO",
+        "cik": "0000021344",
+        "start_date": "2009-01-01",
         "end_date": "2023-12-31",
     },
     # EDGAR settings: user agent + concept list to pull.
     "edgar": {
         "user_agent": "Joseph Montalto joseph.montalto@tufts.edu",
         "concepts": [
-            "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "SalesRevenueNet",
+            "Revenues",
+            "SalesRevenueGoodsNet",
             "NetIncomeLoss",
             "Assets",
             "StockholdersEquity",
