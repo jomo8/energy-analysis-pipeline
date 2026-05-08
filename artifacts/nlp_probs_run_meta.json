@@ -1,0 +1,11 @@
+{
+  "model": "BERT-base",
+  "seed": 8,
+  "wall_best_train_start_iso": "2026-05-07T22:53:18.933751+00:00",
+  "wall_best_train_end_iso": "2026-05-07T22:54:02.978280+00:00",
+  "best_train_time_s": 44.04451560974121,
+  "wall_best_infer_start_iso": "2026-05-07T22:54:03.315034+00:00",
+  "wall_best_infer_end_iso": "2026-05-07T22:54:06.432045+00:00",
+  "best_infer_time_s": 3.1169962882995605,
+  "n_headlines_scored": 10521
+}

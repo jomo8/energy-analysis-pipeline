@@ -1,0 +1,10 @@
+timestamp: 20260506_171253
+duration_sec: 1500.7850395166315
+start_cpu_energy_j: 238752.205748
+end_cpu_energy_j: 15144.501513
+cpu_total_energy_j: 38535.62461499998
+cpu_avg_power_w: 25.67697811500801
+gpu_name: NVIDIA GeForce RTX 4090
+gpu_total_energy_j: 252023.7219873407
+gpu_avg_power_w: 167.92792795196823
+n_gpu_samples: 1499
