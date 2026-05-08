@@ -7,5 +7,11 @@
   "wall_best_infer_start_iso": "2026-05-07T22:54:03.315034+00:00",
   "wall_best_infer_end_iso": "2026-05-07T22:54:06.432045+00:00",
   "best_infer_time_s": 3.1169962882995605,
-  "n_headlines_scored": 10521
+  "n_headlines_scored": 10521,
+  "energy_best_train_cpu_kwh": 0.0005405664991571204,
+  "energy_best_train_gpu_kwh": 0.003568295572576389,
+  "energy_best_train_kwh": 0.004108862071733509,
+  "energy_best_infer_cpu_kwh": 2.881744025448979e-05,
+  "energy_best_infer_gpu_kwh": 0.00020157769920930554,
+  "energy_best_infer_kwh": 0.00023039513946379532
 }

@@ -1,0 +1,84 @@
+{
+  "config": {
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "company": {
+      "ticker": "KO",
+      "cik": "0000021344",
+      "start_date": "2009-01-01",
+      "end_date": "2023-12-31"
+    },
+    "edgar": {
+      "user_agent": "Joseph Montalto joseph.montalto@tufts.edu",
+      "concepts": [
+        "Revenues",
+        "SalesRevenueGoodsNet",
+        "NetIncomeLoss",
+        "Assets",
+        "StockholdersEquity",
+        "OperatingIncomeLoss",
+        "CashAndCashEquivalentsAtCarryingValue",
+        "LongTermDebt",
+        "EarningsPerShareBasic"
+      ]
+    },
+    "labeling": {
+      "method": "return_sign",
+      "horizon_days": 1
+    },
+    "nlp": {
+      "max_length": 128,
+      "train_batch_size": 16,
+      "eval_batch_size": 32,
+      "epochs": 3,
+      "learning_rate": 2e-05,
+      "num_labels": 3,
+      "dataloader_num_workers": 4
+    },
+    "regression": {
+      "test_size": 0.2,
+      "nlp_lookback_days": 5,
+      "n_synthetic_samples": 5000
+    },
+    "inference": {
+      "n_samples": 1000,
+      "batch_size": 32
+    },
+    "lambda_scenarios": {
+      "research": 10,
+      "moderate": 1000,
+      "production": 100000
+    }
+  },
+  "nlp_models": [
+    "DistilBERT",
+    "BERT-base",
+    "RoBERTa-base",
+    "FinBERT"
+  ],
+  "regression_models": [
+    "Linear Regression",
+    "Ridge",
+    "Lasso",
+    "Elastic Net",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "device": "cpu",
+  "counts": {
+    "nlp_runs": 40,
+    "regression_runs": 140,
+    "inference_runs": 4
+  }
+}
