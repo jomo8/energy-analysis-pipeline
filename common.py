@@ -66,15 +66,14 @@ CONFIG = {
     "edgar": {
         "user_agent": "Joseph Montalto joseph.montalto@tufts.edu",
         "concepts": [
-            "Revenues",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet",
             "NetIncomeLoss",
             "Assets",
-            "Liabilities",
             "StockholdersEquity",
             "OperatingIncomeLoss",
             "CashAndCashEquivalentsAtCarryingValue",
             "LongTermDebt",
-            "ResearchAndDevelopmentExpense",
             "EarningsPerShareBasic",
         ],
     },
